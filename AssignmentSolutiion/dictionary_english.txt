@@ -1,0 +1,5 @@
+cat
+dog
+apple
+car
+school
