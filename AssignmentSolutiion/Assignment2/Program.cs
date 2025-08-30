@@ -145,17 +145,17 @@ namespace Assignment2
             //Use dictionary_english.txt for Input
 
 
-           //var groupwords= words.GroupBy(w => w[0]);
+            var groupwords = words.GroupBy(w => w[0]);
 
-
-           // foreach (var group in groupwords)
-           // {
-           //     Console.WriteLine($"Words starting with '{group.Key}':");
-           //     foreach (var word in group)
-           //     {
-           //         Console.WriteLine($"   {word}");
-           //     }
-           // }
+            Console.WriteLine("-------------------");
+            foreach (var group in groupwords)
+            {
+                Console.WriteLine($"Words starting with '{group.Key}':");
+                foreach (var word in group)
+                {
+                    Console.WriteLine($"   {word}");
+                }
+            }
 
 
 
